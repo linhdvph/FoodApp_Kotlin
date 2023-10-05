@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#CCC</color>
     <color name="primaryColor">#81BAB4</color>
+    <color name="facebookBgColor">#4285f4</color>
 </resources>
