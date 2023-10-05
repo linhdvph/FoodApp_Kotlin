@@ -43,7 +43,7 @@
             android:layout_alignParentEnd="true"
             android:layout_below="@id/img1"
             android:gravity="center"
-            android:layout_marginTop="12dp"/>
+            android:layout_marginTop="10dp"/>
 
 
         <EditText
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv1"
             android:layout_marginHorizontal="8dp"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/custom_bg_edit_text"
             android:hint="@string/hint_email_or_phone_number"
             android:inputType="text"
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/edEmailOrPhoneNumber"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="12dp"
             android:background="@drawable/custom_bg_edit_text"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
