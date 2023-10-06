@@ -19,13 +19,14 @@
     <string name="sign_in_with_facebook">Sign in with Facebook</string>
     <string name="sign_up_with_facebook">Sign up with Facebook</string>
     <string name="forgot_password">Forgot password?</string>
-    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">You already have an account?</string>
     <string name="nested_scroll">My Nested Scroll</string>
     <string name="my_image">Image</string>
     <string name="btn_started">Get Started</string>
     <string name="title_sign_in">Hello Again!</string>
-    <string name="text_sign_in">Welcome back you\'ve been missed</string>
-    <string name="hint_email_or_phone_number">Email or phone number</string>
+    <string name="title_sign_up">Welcome!</string>
+    <string name="hint_email_or_phone_number">Phone number</string>
     <string name="hint_password">Password</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

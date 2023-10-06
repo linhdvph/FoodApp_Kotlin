@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import linhdvph25937.poly.foodapp.R
 import linhdvph25937.poly.foodapp.activity.MainActivity
+import linhdvph25937.poly.foodapp.activity.SignInActivity
 import linhdvph25937.poly.foodapp.databinding.FragmentBoarding3Binding
 
 class Boarding3Fragment : Fragment() {
@@ -31,7 +32,7 @@ class Boarding3Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnGetStarted.setOnClickListener {
-            startActivity(Intent(requireActivity(), MainActivity::class.java))
+            startActivity(Intent(requireActivity(), SignInActivity::class.java))
         }
     }
 

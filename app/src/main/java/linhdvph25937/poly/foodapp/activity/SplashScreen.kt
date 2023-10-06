@@ -35,7 +35,7 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun checkisFirstime(){
-        isFirstLaunchApp = sharedPreferences.getBoolean("isFirstTime", true)
+        isFirstLaunchApp = sharedPreferences.getBoolean("isFirstTime", false)
         if (isFirstLaunchApp){
             startActivity(Intent(this@SplashScreen, OnBoardingActivity::class.java))
             editor = sharedPreferences.edit()
